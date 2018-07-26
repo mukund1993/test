@@ -1,0 +1,110 @@
+*,*:before,*:after {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+  }
+  
+  .plane {
+    margin: 20px auto;
+  }
+  .passcabin{
+    float: left;  
+  }
+  .cockpit {
+ 
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+   }
+    .cockpit::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 500px;
+        border-radius: 50%;
+        border-top: 5px solid #d8d8d8;
+        border-bottom: 5px solid #d8d8d8;
+    }
+    h3 {
+      width: 50%;
+      margin: 100px auto 35px auto;
+    }
+
+    .seat{
+        margin-left: 5px;
+        padding: 2px;
+        margin-top: 5px;
+        border-radius: 4px;
+        display: inline-block;
+        text-align: center;
+
+        background-image: url("/assets/transparent-backgro-seatlayoutn.png");
+        background-repeat: no-repeat;
+        outline-color: -moz-use-text-color;
+        outline-style: none;
+        outline-width: medium;
+        text-decoration: none;
+        text-indent: -9999px;
+        height: 21px;
+        width: 22px;
+    }
+    .availableSeat{
+        background-position: 0 -13px;   
+    }
+    .availableSleeper {
+        background-position: -47px -11px;
+        height: 24px;
+        width: 47px;
+    }
+    .selectedSeat {
+        background-position: 0 -83px;
+    }
+    .selectedSleeper {
+        background-position: -48px -81px;
+        height: 24px;
+        width: 47px;
+    }
+    .availableLadiesSeat {
+        background-position: 0 -36px;
+    }
+    .availableLadiesSleeper {
+        background-position: -47px -35px;
+        height: 24px;
+        width: 47px;
+    }
+    .bookedSeat {
+        background-position: -25px -13px;
+    }
+    .bookedSleeper {
+        background-position: -94px -11px;
+        height: 24px;
+        width: 47px;
+    }
+    .blockedSeat {
+        background-position: -25px -36px;
+    }
+    .blockedSleeper {
+        background-position: -94px -35px;
+        height: 24px;
+        width: 47px;
+    }
+
+    .seatNo{
+        margin-left: 5px;
+        padding: 2px;
+        margin-top: 5px;
+        border-radius: 4px;
+        width: 22px;
+        display: inline-block;
+        text-align: center;
+    }
+  .gallery{
+      width: 100%;
+      text-align: center;
+  }
+  

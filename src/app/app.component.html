@@ -1,0 +1,20 @@
+
+<div class="plane">
+    <div class="cockpit" [style.height.px]="cockpit.height">
+        <h3>Cock Pit</h3>
+    </div>
+    <div class="passcabin" #passCabin>
+        <div class="gallery"> &nbsp;</div>
+        
+        <div *ngFor="let S of GLF.flightView.upperSide">
+          
+        <span>{{S.col}}</span> <span class="seat {{GLF.flightView.seatlst[seat + S.col] ? GLF.flightView.seatlst[seat + S.col].cls : 'blockedSeat'}}" [title]="S.col + seat" *ngFor="let seat of S.seatList">-</span>  
+      </div>
+      
+      <div class="gallery"> <span>=</span> <span class="seatNo" *ngFor="let seat of GLF.flightView.rowArray">{{seat}}</span></div>
+      <div *ngFor="let S of GLF.flightView.lowerSide">
+          <span>{{S.col}}</span> <span class="seat {{GLF.flightView.seatlst[seat + S.col] ? GLF.flightView.seatlst[seat + S.col].cls : 'blockedSeat'}}" [title]="S.col + seat" *ngFor="let seat of S.seatList">-</span>
+      </div>
+      <div class="gallery"> &nbsp;</div>
+    </div>
+</div>
