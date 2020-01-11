@@ -1,0 +1,45 @@
+[{
+    "catid": "HOT BEVERAGE","name": "HOT BEVERAGE", "description": "aaa aaa aaa"
+},
+{
+    "catid": "COLD BEVERAGE","name": "COLD BEVERAGE", "description": "aaa aaa aaa"
+},
+{
+    "catid": "MAGGI","name": "MAGGI & PAZZTA", "description": "aaa aaa aaa"
+},
+{
+    "catid": "SNACKS","name": "SNACKS", "description": "aaa aaa aaa"
+},
+{
+    "catid": "CHOCOLATE","name": "CHOCOLATE", "description": "aaa aaa aaa"
+},
+{
+    "catid": "MRP PRODUCTS","name": "MRP PRODUCTS", "description": "aaa aaa aaa"
+}
+]
+billId: "30112019115639324"
+date: "Nov 30,2019 11:56 AM"
+mode: 0
+paid: "55"
+total: 100
+userMob: "99999
+
+Qty: 1
+billId: "30112019115639324"
+catid: "COLD"
+mode: undefined
+price: 50
+prodid: 2
+tax: "5%"
+
+            "prodid": "5de0e5795483e07a31528349",
+            "catid": "Coffee",
+            "price": 100,
+            "tax": 18,
+            "quantity": 1,
+            "total": 100,
+            "timestamp": 1575019897677
+            "name": "NesCafee",
+            "availableItem": 0,
+
+

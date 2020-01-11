@@ -1,0 +1,43 @@
+{
+    "products" :[{   "catid": 1, "prodid": 1 ,"name": "HOT BEVERAGE 1", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "HOT", "prodid": 2 ,"name": "HOT BEVERAGE 2", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "HOT", "prodid": 3 ,"name": "HOT BEVERAGE 3", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "HOT", "prodid": 4 ,"name": "HOT BEVERAGE 4", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "HOT", "prodid": 5 ,"name": "HOT BEVERAGE 5", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "HOT", "prodid": 6 ,"name": "HOT BEVERAGE 6", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+
+{    "catid": "COLD", "prodid": 1 ,"name": "COLD BEVERAGE 1", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "COLD", "prodid": 2 ,"name": "COLD BEVERAGE 2", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "COLD", "prodid": 3 ,"name": "COLD BEVERAGE 3", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "COLD", "prodid": 4 ,"name": "COLD BEVERAGE 4", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "COLD", "prodid": 5 ,"name": "COLD BEVERAGE 5", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+
+{    "catid": "MAGGI", "prodid": 1 ,"name": "MAGGI & PAZZTA 1", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MAGGI", "prodid": 2 ,"name": "MAGGI & PAZZTA 2", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MAGGI", "prodid": 3 ,"name": "MAGGI & PAZZTA 3", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MAGGI", "prodid": 4 ,"name": "MAGGI & PAZZTA 4", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MAGGI", "prodid": 5 ,"name": "MAGGI & PAZZTA 5", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+
+{    "catid": "SNACKS", "prodid": 1 ,"name": "SNACKS 1", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "SNACKS", "prodid": 2 ,"name": "SNACKS 2", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "SNACKS", "prodid": 3 ,"name": "SNACKS 3", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "SNACKS", "prodid": 4 ,"name": "SNACKS 4", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "SNACKS", "prodid": 5 ,"name": "SNACKS 5", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+
+{    "catid": "CHOCOLATE", "prodid": 1 ,"name": "CHOCOLATE 1", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "CHOCOLATE", "prodid": 2 ,"name": "CHOCOLATE 2", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "CHOCOLATE", "prodid": 3 ,"name": "CHOCOLATE 3", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "CHOCOLATE", "prodid": 4 ,"name": "CHOCOLATE 4", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "CHOCOLATE", "prodid": 5 ,"name": "CHOCOLATE 5", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+
+{    "catid": "MRP", "prodid": 1 ,"name": "MRP PRODUCTS 1", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MRP", "prodid": 2 ,"name": "MRP PRODUCTS 2", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MRP", "prodid": 3 ,"name": "MRP PRODUCTS 3", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MRP", "prodid": 4 ,"name": "MRP PRODUCTS 4", "description": "aaa aaa aaa", "price":50, "tax":"5%" },
+{    "catid": "MRP", "prodid": 5 ,"name": "MRP PRODUCTS 5", "description": "aaa aaa aaa", "price":50, "tax":"5%" }
+],
+
+"categories" :[
+    "HOT","COLD","MAGGI","SNACKS","CHOCOLATE","MRP"
+]
+}
