@@ -20,7 +20,7 @@ var http = require('http');
 var server = http.createServer(app);
 
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
  
 server.listen(server_port, server_ip_address, function () {
   console.log( "Listening on " + server_ip_address + ", port " + server_port )
@@ -43,21 +43,6 @@ server.on('listening', onListening);
  * Normalize a port into a number, string, or false.
  */
 
-function normalizePort(val) {
-  var port = parseInt(val, 10);
-
-  if (isNaN(port)) {
-    // named pipe
-    return val;
-  }
-
-  if (port >= 0) {
-    // port number
-    return port;
-  }
-
-  return false;
-}
 
 /**
  * Event listener for HTTP server "error" event.
